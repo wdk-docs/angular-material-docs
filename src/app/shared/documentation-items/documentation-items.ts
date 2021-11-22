@@ -42,7 +42,7 @@ const CDK = 'cdk';
 const COMPONENTS = 'components';
 export const SECTIONS: { [key: string]: DocSection } = {
   [COMPONENTS]: {
-    name: 'Components',
+    name: '组件',
     summary: 'Angular Material offers a wide variety of UI components based on the <a' +
       ' href="https://material.io/components">Material Design specification</a>'
   },
@@ -58,7 +58,7 @@ const DOCS: { [key: string]: DocItem[] } = {
   [COMPONENTS]: [
     {
       id: 'autocomplete',
-      name: 'Autocomplete',
+      name: 'Autocomplete-自动完成',
       summary: 'Suggests relevant options as the user types.',
       exampleSpecs: {
         prefix: 'autocomplete-',
@@ -67,7 +67,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'badge',
-      name: 'Badge',
+      name: 'Badge-徽章',
       summary: 'A small value indicator that can be overlaid on another object.',
       exampleSpecs: {
         prefix: 'badge-',
@@ -85,7 +85,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'button',
-      name: 'Button',
+      name: 'Button-按钮',
       summary: 'An interactive button with a range of presentation options.',
       exampleSpecs: {
         prefix: 'button-',
@@ -104,7 +104,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'card',
-      name: 'Card',
+      name: 'Card-卡片',
       summary: 'A styled container for pieces of itemized content.',
       exampleSpecs: {
         prefix: 'card-',
@@ -385,7 +385,7 @@ const DOCS: { [key: string]: DocItem[] } = {
   [CDK]: [
     {
       id: 'a11y',
-      name: 'Accessibility',
+      name: 'Accessibility-易用性',
       summary: 'Utilities for screen readers, focus and more.',
       exampleSpecs: {
         prefix: 'focus-monitor-',
@@ -393,7 +393,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'accordion',
-      name: 'Accordion',
+      name: 'Accordion-折叠',
       summary: 'Component with one or more expandable sections.',
       exampleSpecs: {
         prefix: 'cdk-accordion-',
@@ -401,7 +401,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'bidi',
-      name: 'Bidirectionality',
+      name: 'Bidirectionality-双向',
       summary: 'Utilities to respond to changes in LTR/RTL layout direction.',
       exampleSpecs: {
         prefix: 'cdk-bidi-',
@@ -409,7 +409,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'clipboard',
-      name: 'Clipboard',
+      name: 'Clipboard-剪切板',
       summary: 'Helpers for working with the system clipboard.',
       exampleSpecs: {
         prefix: 'cdk-clipboard-',
@@ -417,7 +417,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'coercion',
-      name: 'Coercion',
+      name: 'Coercion-强迫',
       summary: 'Utility functions for coercing @Input into specific types.',
       exampleSpecs: {
         prefix: 'cdk-coercion-',
@@ -425,7 +425,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'collections',
-      name: 'Collections',
+      name: 'Collections-收集',
       summary: 'Utilities for managing collections.',
       exampleSpecs: {
         prefix: 'cdk-collections-',
@@ -433,7 +433,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'drag-drop',
-      name: 'Drag and Drop',
+      name: 'Drag and Drop-拖摘',
       summary: 'Directives enabling drag-and-drop interactions',
       exampleSpecs: {
         prefix: 'cdk-drag-drop-',
@@ -441,7 +441,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'layout',
-      name: 'Layout',
+      name: 'Layout-布局',
       summary: 'Utilities to respond to changes in viewport size.',
       exampleSpecs: {
         prefix: 'cdk-layout-',
@@ -449,7 +449,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'observers',
-      name: 'Observers',
+      name: 'Observers-观察者',
       summary: 'Utilities to respond to changes to element properties.',
       exampleSpecs: {
         prefix: 'cdk-observers-',
@@ -457,7 +457,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'overlay',
-      name: 'Overlay',
+      name: 'Overlay-覆盖',
       summary: 'Utilities for dynamically displaying floating content.',
       exampleSpecs: {
         prefix: 'cdk-overlay-',
@@ -465,7 +465,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'platform',
-      name: 'Platform',
+      name: 'Platform-平台',
       summary: 'Provides information about the user\'s platform.',
       exampleSpecs: {
         prefix: 'cdk-platform-',
@@ -473,7 +473,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'portal',
-      name: 'Portal',
+      name: 'Portal-入口',
       summary: 'Utilities for dynamically displaying content into a target.',
       exampleSpecs: {
         prefix: 'cdk-portal-',
@@ -481,7 +481,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'scrolling',
-      name: 'Scrolling',
+      name: 'Scrolling-滚动',
       summary: 'Directives for managing scroll events.',
       exampleSpecs: {
         prefix: 'cdk-virtual-scroll-',
@@ -489,7 +489,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'stepper',
-      name: 'Stepper',
+      name: 'Stepper-步骤',
       summary: 'Presents content as steps through which to progress.',
       exampleSpecs: {
         prefix: 'cdk-custom-stepper-',
@@ -497,7 +497,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'table',
-      name: 'Table',
+      name: 'Table-表格',
       summary: 'A configurable component for displaying tabular data.',
       exampleSpecs: {
         prefix: 'cdk-table-',
@@ -505,7 +505,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'test-harnesses',
-      name: 'Component Harnesses',
+      name: 'Component Harnesses-组件利用',
       summary: 'Foundation for component test harnesses.',
       exampleSpecs: {
         prefix: 'cdk-test-harnesses-',
@@ -525,7 +525,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'text-field',
-      name: 'Text field',
+      name: 'Text field-文本字段',
       summary: 'Utilities for working with text input fields.',
       exampleSpecs: {
         prefix: 'text-field-',
@@ -533,7 +533,7 @@ const DOCS: { [key: string]: DocItem[] } = {
     },
     {
       id: 'tree',
-      name: 'Tree',
+      name: 'Tree-树',
       summary: 'Presents hierarchical content as an expandable tree.',
       exampleSpecs: {
         prefix: 'cdk-tree-',
